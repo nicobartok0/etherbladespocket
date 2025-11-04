@@ -1,0 +1,194 @@
+{
+    "elemental": {
+      "nombre": "Elemental",
+      "tipo": "general",
+      "descripcion": "Controla los cuatro elementos (fuego, agua, tierra, aire) y sus variaciones. Suele concentrarse en uno principal. Permite lanzar proyectiles elementales, crear escudos de energía y manipular el entorno.",
+      "fortalezas": [
+        "Versatilidad en combate",
+        "Control del campo de batalla",
+        "Daño elemental variable"
+      ],
+      "debilidades": [
+        "Requiere concentración",
+        "Vulnerable a elementos opuestos"
+      ]
+    },
+    "psiquica": {
+      "nombre": "Psíquica",
+      "tipo": "general",
+      "descripcion": "Poder de mover objetos con la mente. Los cuerpos orgánicos están protegidos por flujo mágico. Permite levitar objetos, crear barreras telekinéticas y lanzar proyectiles.",
+      "fortalezas": [
+        "Combate a distancia seguro",
+        "Control preciso de objetos",
+        "Útil fuera de combate"
+      ],
+      "debilidades": [
+        "No afecta seres vivos directamente",
+        "Limitado por peso de objetos"
+      ]
+    },
+    "oculta": {
+      "nombre": "Oculta",
+      "tipo": "general",
+      "descripcion": "Poder de la oscuridad y el sigilo. Genera hechizos de ocultamiento, aumenta daño desde las sombras y permite moverse sin ser detectado. Ideal para asesinos y exploradores.",
+      "fortalezas": [
+        "Ataques sorpresa devastadores",
+        "Sigilo sobrenatural",
+        "Bonus en ataques furtivos"
+      ],
+      "debilidades": [
+        "Menos efectiva en luz intensa",
+        "Débil en combate directo"
+      ]
+    },
+    "morphica": {
+      "nombre": "Morphica",
+      "tipo": "general",
+      "descripcion": "Permite cambiar la forma del cuerpo, desde partes individuales hasta transformaciones completas. En niveles altos puede mimetizar otras personas, crear armas naturales o adaptarse al entorno.",
+      "fortalezas": [
+        "Adaptabilidad extrema",
+        "Infiltración perfecta",
+        "Armas corporales"
+      ],
+      "debilidades": [
+        "Mantener formas complejas cansa",
+        "Vulnerable durante transformación"
+      ]
+    },
+    "espiritual": {
+      "nombre": "Espiritual",
+      "tipo": "general",
+      "descripcion": "Conexión con el plano de los espíritus. Permite comunicar con almas, invocar espíritus guardianes, ver el plano astral y obtener conocimiento de los muertos.",
+      "fortalezas": [
+        "Información de espíritus",
+        "Invocaciones poderosas",
+        "Visión extrasensorial"
+      ],
+      "debilidades": [
+        "Limitada en combate directo",
+        "Requiere concentración profunda"
+      ]
+    },
+    "cristalina": {
+      "nombre": "Cristalina",
+      "tipo": "general",
+      "descripcion": "Poder de controlar y crear cristales filosos. Puede lanzar proyectiles de cristal, crear armaduras minerales, cristalizar enemigos temporalmente y construir estructuras.",
+      "fortalezas": [
+        "Excelente defensa y ataque",
+        "Puede crear armas instantáneas",
+        "Control de terreno"
+      ],
+      "debilidades": [
+        "Vulnerable a vibración sónica",
+        "Lento en formaciones grandes"
+      ]
+    },
+    "sangrienta": {
+      "nombre": "Sangrienta",
+      "tipo": "general_especial",
+      "descripcion": "Sacrifica integridad del cuerpo por conjuros devastadores. Usa PV en lugar de PM. ⚠️ ATENCIÓN: Sin PM/PCF/PCT, pero ganas +Vol×5 PV adicionales. Poder extremo a cambio de riesgo extremo.",
+      "fortalezas": [
+        "Hechizos más poderosos del juego",
+        "Más PV que otros magos",
+        "Sin límite de PM"
+      ],
+      "debilidades": [
+        "Cada hechizo te hiere",
+        "Riesgo constante de muerte",
+        "Sin recursos mágicos tradicionales"
+      ],
+      "advertencia": "Este Hephix es para jugadores experimentados. Usar magia te daña directamente."
+    },
+    "sanadora": {
+      "nombre": "Sanadora",
+      "tipo": "kairenista",
+      "descripcion": "Magia de la luz divina enfocada en restauración. Cura heridas graves, elimina maldiciones, bendice aliados con protección y puede incluso resucitar a los caídos en niveles avanzados.",
+      "fortalezas": [
+        "Mejor curación del juego",
+        "Buffs de protección",
+        "Esencial para grupos"
+      ],
+      "debilidades": [
+        "Poco daño ofensivo",
+        "Vulnerable sin aliados"
+      ],
+      "filosofia": "Kairenista - Seguidor de la luz y orden divino"
+    },
+    "exorcista": {
+      "nombre": "Exorcista",
+      "tipo": "kairenista",
+      "descripcion": "Magia de luz ofensiva. Lanza rayos purificadores, crea llamas santas, expulsa demonios y no-muertos. Especialmente efectiva contra criaturas de oscuridad y nigromancia.",
+      "fortalezas": [
+        "Daño masivo vs oscuridad",
+        "Puede purificar maldiciones",
+        "Efectiva contra no-muertos"
+      ],
+      "debilidades": [
+        "Menos efectiva vs enemigos normales",
+        "Requiere fe inquebrantable"
+      ],
+      "filosofia": "Kairenista - Seguidor de la luz y orden divino"
+    },
+    "luminica": {
+      "nombre": "Lumínica",
+      "tipo": "kairenista",
+      "descripcion": "Balance perfecto entre sanación y exorcismo. Puede tanto restaurar aliados como dañar enemigos con luz. Versatilidad de la luz divina sin especializarse en un extremo.",
+      "fortalezas": [
+        "Versatilidad luz/curación",
+        "Adaptable a situaciones",
+        "Sin puntos débiles graves"
+      ],
+      "debilidades": [
+        "No es la mejor en nada específico",
+        "Requiere decisiones tácticas"
+      ],
+      "filosofia": "Kairenista - Seguidor de la luz y orden divino"
+    },
+    "caotica": {
+      "nombre": "Caótica",
+      "tipo": "vadhenista",
+      "descripcion": "Dominio de las fuerzas destructivas primordiales. Invoca terremotos, emerge volcanes, controla lava fundida, genera rayos devastadores y desata el caos natural. Destrucción pura.",
+      "fortalezas": [
+        "Destrucción masiva de área",
+        "Sin rival en poder bruto",
+        "Altera permanentemente el terreno"
+      ],
+      "debilidades": [
+        "Difícil de controlar",
+        "Daña aliados si no hay cuidado",
+        "Alto costo de mana"
+      ],
+      "filosofia": "Vadhenista - Seguidor del caos y libertad absoluta"
+    },
+    "nigromante": {
+      "nombre": "Nigromante",
+      "tipo": "vadhenista",
+      "descripcion": "Manejo de cadáveres y cuerpos sin espíritu. Anima muertos como esbirros, crea armas de hueso y carne, lanza maldiciones degenerativas y puede drenar vida de enemigos.",
+      "fortalezas": [
+        "Ejército de no-muertos",
+        "Maldiciones persistentes",
+        "Drenaje de vida"
+      ],
+      "debilidades": [
+        "Esbirros débiles individualmente",
+        "Socialmente repudiado",
+        "Vulnerable a luz/exorcismo"
+      ],
+      "filosofia": "Vadhenista - Seguidor del caos y libertad absoluta"
+    },
+    "oscura": {
+      "nombre": "Oscura",
+      "tipo": "vadhenista",
+      "descripcion": "Fusión de nigromancia y caos. Combina destrucción con control de no-muertos. Puede invocar explosiones de energía oscura mientras controla cadáveres. El equilibrio vadhenista.",
+      "fortalezas": [
+        "Versatilidad oscura completa",
+        "Combina destrucción y control",
+        "Opciones tácticas variadas"
+      ],
+      "debilidades": [
+        "No domina ningún aspecto completamente",
+        "Requiere gestión de recursos"
+      ],
+      "filosofia": "Vadhenista - Seguidor del caos y libertad absoluta"
+    }
+  }

@@ -139,3 +139,44 @@ Pruebas unitarias sobre cálculos de CA/CD, PV/PM, daño, stamina.
 Verificación de publicación de eventos esperados.
 
 Pruebas de regresión automática tras cada cambio.
+
+US-080: Creación de personajes
+Como jugador
+Quiero poder crear una ficha de forma guiada
+Para personalizar las estadísticas de mi personaje
+Criterios de aceptación:
+
+Creación de personaje al iniciar una partida nueva
+Wizard interactivo paso a paso que guíe al jugador
+Validación de distribución de puntos (20 características, 10 combate, 10 educación, 10 talento)
+Aplicación automática de bonificaciones de clase
+Cálculo automático de PV, PM, PCF, PCT según fórmulas
+Selección de Hephix con explicación de cada tipo
+Validación de historia/trasfondo del personaje
+Previsualización de ficha completa antes de confirmar
+Testing de creación de personajes con diferentes combinaciones
+
+
+US-090: Guardado y cargado de partidas
+Como jugador
+Quiero poder guardar y cargar el contexto y personaje usado de una partida
+Para poder continuar una misma campaña
+Criterios de aceptación:
+
+Guardado en formato JSON con toda la información necesaria:
+
+Personaje completo (stats, inventario, equipamiento)
+Estado actual (PV, PM, Stamina actuales)
+Contexto narrativo (checkpoint, eventos completados)
+Estado de combate si está en uno
+Log de eventos importantes para contexto de IA
+Timestamp y metadata
+
+
+Carga que restaure fielmente todo el estado
+Validación de integridad al cargar
+Manejo de errores (archivo corrupto, versión incompatible)
+Sistema de guardado automático en checkpoints narrativos
+Múltiples slots de guardado (diferentes partidas)
+Contexto preparado para que la IA pueda retomar donde lo dejó
+

@@ -1,0 +1,56 @@
+{
+  "curandero": {
+    "nombre": "Curandero",
+    "descripcion": "Especialista en medicina y sanación, con conocimientos profundos del cuerpo y la mente.",
+    "bonificaciones": {
+      "armas_cortantes": 1,
+      "medicina": 7,
+      "mentalidad": 2
+    }
+  },
+  "guerrero": {
+    "nombre": "Guerrero",
+    "descripcion": "Maestro del combate físico, entrenado en múltiples armas y tácticas de batalla.",
+    "bonificaciones": {
+      "armas_cortantes": 3,
+      "armas_contundentes": 3,
+      "pugilismo": 4
+    }
+  },
+  "mago": {
+    "nombre": "Mago",
+    "descripcion": "Estudioso del Hephix y las artes arcanas, capaz de conjuros devastadores.",
+    "bonificaciones": {
+      "armas_magicas": 5,
+      "arcanismo": 3,
+      "mentalidad": 2
+    }
+  },
+  "explorador": {
+    "nombre": "Explorador",
+    "descripcion": "Experto en supervivencia, sigilo y combate a distancia.",
+    "bonificaciones": {
+      "armas_distancia": 5,
+      "sigilo": 3,
+      "percepcion": 2
+    }
+  },
+  "artesano": {
+    "nombre": "Artesano",
+    "descripcion": "Maestro en la creación y mejora de armas y objetos.",
+    "bonificaciones": {
+      "manual": 7,
+      "arcanismo": 2,
+      "percepcion": 1
+    }
+  },
+  "diplomatico": {
+    "nombre": "Diplomático",
+    "descripcion": "Experto en persuasión, engaño y manipulación social.",
+    "bonificaciones": {
+      "elocuencia": 7,
+      "percepcion": 2,
+      "mentalidad": 1
+    }
+  }
+}
