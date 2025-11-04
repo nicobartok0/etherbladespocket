@@ -32,7 +32,7 @@
 ### 🎓 Contexto Académico
 
 - **Institución**: Universidad de Mendoza
-- **Materia**: Computación II
+- **Materia**: Diseño de Sistemas
 - **Objetivo**: Aplicar patrones de diseño y principios de ingeniería de software
 - **Desarrollo**: Proyecto completo funcional con arquitectura escalable
 
@@ -52,7 +52,7 @@
 
 | Característica | Descripción |
 |---------------|-------------|
-| **13 Tipos de Hephix** | Elemental, Psíquica, Oculta, Morphica, Espiritual, Cristalina, Sangrienta, Sanadora, Exorcista, Lumínica, Caótica, Nigromante, Oscura |
+| **13 Tipos de tipos de magia elegibles (Hephix)** | Elemental, Psíquica, Oculta, Morphica, Espiritual, Cristalina, Sangrienta, Sanadora, Exorcista, Lumínica, Caótica, Nigromante, Oscura |
 | **6 Clases** | Guerrero, Mago, Explorador, Curandero, Artesano, Diplomático |
 | **Sistema de Progresión** | Experiencia, niveles (1-30), habilidades desbloqueables |
 | **Personalización** | 20 puntos en características, 30 puntos en habilidades |
